@@ -155,6 +155,9 @@ header{
 .header__categories{
     display: flex;
 }
+.header__categories button{
+    cursor: pointer;
+}
 .header__categories span{
     margin-left: 7px;
 }
