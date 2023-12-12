@@ -43,6 +43,7 @@ span{
     justify-content: space-between;
 }
 .InfoBlock__links{
+    margin-left: 3rem;
     padding: .9rem;
     display: flex;
     align-items: center;
@@ -55,6 +56,9 @@ span{
 }
 .InfoBlock__links svg{
     margin-left: 5px;
+}
+.infoBlock-left{
+    display: flex;
 }
 .InfoBlock::after{
     z-index: -1;
